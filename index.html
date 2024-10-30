@@ -394,45 +394,64 @@
                 <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
                 </div>
                 <div class="social-footer">
-                <p class="name-icons">Social media</p>
-                   <ul class="hero-items footer-st">
-                      <li class="profile-icons-ft">
-                            <a href="" class="social-page-footer">
-                           <svg class="social-ft-icons" width="24" height="24">
+                    <p class="name-icons">Social media</p>
+                        <ul class="hero-items footer-st">
+                            <li class="profile-icons-ft">
+                                <a href="" class="social-page-footer">
+                                <svg class="social-ft-icons" width="24" height="24">
                                 <use href="./images/icons.svg#icon-instagram-2"></use>
                                 </svg>
-                            </a>
-                        </li>
-                        <li class="profile-icons-ft">
-                            <a href="" class="social-page-footer">
+                                </a>
+                            </li>
+                            <li class="profile-icons-ft">
+                                <a href="" class="social-page-footer">
                                 <svg class="social-ft-icons" width="24" height="24">
                                 <use href="./images/icons.svg#icon-twitter-1"></use>
                                 </svg>
-                            </a>
-                        </li>
-                        <li class="profile-icons-ft">
-                            <a href="" class="social-page-footer">
+                                </a>
+                            </li>
+                            <li class="profile-icons-ft">
+                                <a href="" class="social-page-footer">
                                 <svg class="social-ft-icons" width="24" height="24">
                                 <use href="./images/icons.svg#icon-facebook-1"></use>
                                </svg>
-                            </a>
-                        </li>
-                        <li class="profile-icons-ft">
-                            <a href="" class="social-page-footer">
+                                </a>
+                            </li>
+                            <li class="profile-icons-ft">
+                                <a href="" class="social-page-footer">
                                 <svg class="social-ft-icons" width="24" height="24">
                                 <use href="./images/icons.svg#icon-linkedin-1"></use>
                                 </svg>
-                            </a>
-                        </li>              
-                    </ul>
+                                </a>
+                            </li>              
+                        </ul>
                 </div>
+
+                <div class="social-form">
+                   <p class="social-form-input">Subscribe</p>               
+                   <form class="info-for-email">
+                    <label class="footer-list" for="input-email-ft">
+                        <input class="form-input-footer"
+                         name="input-email-ft" 
+                         id="input-email-ft" 
+                         type="email" placeholder="E-mail"/>
+                    </label>
+                        <button class="form-button" type="button">Subscribe
+                            <svg class="button-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame"></use>
+                            </svg>
+                        </button>
+                   </form>
+                </div>
+
             </div>
         </footer>
 
-        <div class="backdrop is-open" data-modal>
+
+        <div class="backdrop is-open" data-modal> 
             <div class="modal">
                 <button class="modal-close-button" type="button" data-modal-close>
-                     <svg class="button close" width="8" height="8">
+                     <svg class="button-close" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
                 </button>
@@ -462,32 +481,35 @@
                         </svg>
                     </div>
 
-                     <label class="form-label" for="input-tel">Email</label>
-                    <div class="input-email">
+                     <label class="form-label" for="input-email">Email</label>
+                    <div class="form-input-email">
                         <input class="form-input"
-                         name="input-name" 
-                         id="input-name" 
+                         name="input-email" 
+                         id="input-email" 
                          type="email" required />
                         <svg class="icon-svg" width="18" height="24">
                         <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
                         </svg>
                     </div>
 
-                    <div >
+                    <div class="comment-list">
                         <label class="textarea-list" for="input-text">Comment
-                        <textarea class="form-textarea" name="feedback" rows="5"
-                         placeholder="Text input"></textarea>
+                        <textarea class="form-textarea" id="input-text" name="feedback" 
+                        placeholder="Text input"></textarea>
+                        </label>
                     </div>
-                    </label>
 
+                    
                     <div class="check-store">
-                        <input class="visually-hidden"
-                         name="privacy" 
-                         id="privacy" 
+                        <input 
+                         class="check-vector visually-hidden"
+                         name="check-text" 
+                         id="check-text" 
                          type="checkbox"
-                         value="true" />
+                         value="true"
+                          />
 
-                        <label  for="Policy"
+                        <label  for="check-text"
                          class="checkbox-page">
                             <span class="link-part">
                                 <svg class="icon-privacy" width="10" height="8">
@@ -499,7 +521,7 @@
                          </label>
                     </div>                              
                                                                       
-                    <button type="submit" class="form-btn-submit">Send</button>
+                    <button type="submit" class="form-btn-submit" data-modal-close>Send</button>
                                        
                 </div>
             </div>
