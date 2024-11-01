@@ -750,12 +750,6 @@ img {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-  
-/* input, textarea {
-  padding: 8px;
-  font-family: inherit;
-  font-size: inherit;
-} */
 
 .form-textarea:focus {
   border-color: #4D5AE5; 
@@ -764,21 +758,6 @@ img {
 .form-textarea:focus::placeholder {
   color: #4d5ae5;
 }
-
-/* .form-textarea {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  height: 120px;
-  width: 100%;
-  padding-left: 16px;
-  background-color: transparent;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  background: transparent;
-  outline: transparent;
-  resize: none;
-} */
 
 .check-store {
   margin-bottom: 24px;
@@ -790,11 +769,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
- 
-  /* align-items: center;
-  justify-content: center;  
-  background-color: transparent;
-  margin-top: 8px; */
 }
 
 .link-part {
